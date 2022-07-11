@@ -25,16 +25,16 @@ Found
     ('case3:test3', {
         "output": {"key": "value"},
         "input": [
-            {"number": 5},
-            {"number": 2},
-            {"number": 3},
             {"number": 4},
+            {"number": 5},
+            {"number": 6},
+            {"number": 7},
         ],
     },
-     """25
-4
-9
-16
+     """16
+25
+36
+49
 """, True
      ),
 ]
